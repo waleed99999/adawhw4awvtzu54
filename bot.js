@@ -97,7 +97,7 @@ client.on('message', message => {
 
   let args = message.content.split(" ").slice(1);
 
-  if (command == "say") {
+  if (command == "say3") {
    message.channel.sendMessage(args.join("  "))
    message.delete()
   }
@@ -112,7 +112,7 @@ client2.on('message', message => {
 
   let args = message.content.split(" ").slice(1);
 
-  if (command == "say") {
+  if (command == "say4") {
    message.channel.sendMessage(args.join("  "))
    message.delete()
   }
